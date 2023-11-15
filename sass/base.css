@@ -1,0 +1,31 @@
+body {
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 170%;
+}
+
+button {
+  color: rgba(255, 255, 255, 0.59);
+}/*# sourceMappingURL=base.css.map */

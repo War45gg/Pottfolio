@@ -1,0 +1,50 @@
+// Variables
+$contrainerWidth: 1300px;
+$contrainerPadding: 7px;
+$maincolor:#fff;
+$secondColor:rgba(255, 255, 255, 0.59);
+$bgArrowsW:1px;
+
+// BASE ELEM STYLE
+* {
+  cursor: none;
+}
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: $maincolor;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+h2 {
+  font-size: 46px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 28px;
+}
+p {
+  font-size: 16px;
+  line-height: 170%;
+}
+a {
+}
+button {
+  color: $secondColor;
+  cursor: none;
+}
+input {
+}
+
+// MIXIN
+@mixin flexWrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@mixin fontSizeMedia {
+  font-size: 190% !important;
+}

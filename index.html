@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="follower"></div>
+
+    <header class="header">
+        <div class="container header-container">
+
+            <nav class="header-menu">
+                <a href="#!" class="logo"><img src="./img/logo.svg" alt="logo"></a>
+                <ul class="main-menu-list">
+                    <li><a data-scroll href="#about" class="link">About</a></li>
+                    <li><a data-scroll href="#projects" class="link">Projects</a></li>
+                    <li><a data-scroll href="#contact" class="link">Contacts</a></li>
+                    <li><a data-scroll href="#reviews" class="link">Reviews</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="burger-btn">
+                        <img src="./img/header/burger.svg" alt="menu" class="burger-img">
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-intro">
+                <div class="header-intro-item">
+                    <h1 class="main-title">Michael Scofield</h1>
+                    <h2 class="main-subtitle">Fullstack web developer</h2>
+                    <div class="intro-skils">
+                        <div>
+                            <h3>UI / UX Design</h3>
+                        </div>
+                        <div>
+                            <h3>QA Testing</h3>
+                        </div>
+                        <div>
+                            <h3>Mobile Apps</h3>
+                        </div>
+                        <div>
+                            <h3>Web development</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-intro-item ">
+                    <canvas id="canvasOne" width="550" height="550">
+                        Your browser does not support HTML5 canvas.
+                    </canvas>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main id="main">
+
+        <section class="about" id="about">
+            <div class="container about-container">
+                <div>
+                    <h5 class="about-second-title second-title">About</h5>
+                    <h2 class="about-title">History of my development:</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>2015</h3>
+                        <p>First project. Blog for the teacher</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>2016</h3>
+                        <p>Development of the first mobile application</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>2017</h3>
+                        <p>The portfolio includes over 100 projects</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>2018</h3>
+                        <p>First international project</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>2019</h3>
+                        <p>Launching a personal web development course</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>2020+</h3>
+                        <p>Started working in Google</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container projects-container">
+                <div class="projects-header">
+                    <h3 class="projects-second-title second-title">Projects</h3>
+                    <h2 class="projects-title">100+ projects on different topics:</h2>
+                </div>
+                <div class="projects-body">
+                    <div class="projects-tab">
+                        <button class="projects-tab-btn link">Blogs</button>
+                        <button class="projects-tab-btn link">CRM</button>
+                        <button class="projects-tab-btn link">Educational platform</button>
+                        <button class="projects-tab-btn link">Banking applications</button>
+                        <button class="projects-tab-btn link">Mobile applications</button>
+                        <button class="projects-tab-btn link">Mobile games</button>
+                        <button class="projects-tab-btn link">Social networks</button>
+                        <button class="projects-tab-btn link">Hello</button>
+                    </div>
+                    <div class="projects-acardion"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact-container">
+                <h2 class="contact-title">Write to me and I will answer within the next 24 hours</h2>
+                <button class="contact-btn">Discuss the project</button>
+            </div>
+            <div class="modal">
+                <div>
+                    <h3 class="modal-title">Contact me:</h3>
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Message">
+                        <button type="submit" class="modal-form-btn">Discuss the project</button>
+                    </form>
+                    <img src="./img/contact/close.svg" alt="close" class="close-modal">
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="reviews-header">
+                    <h3 class="projects-second-title second-title">Reviews</h3>
+                    <h2 class="reviews-title">What my clients say about me:</h2>
+                </div>
+
+                <div class="sliider-arrows">
+                    <div class="arrow-btn arrow-prev link">
+                        <img src="./img/reviews/arrow-prev.svg" alt="arrow-prev">
+                    </div>
+                    <div class="arrow-btn arrow-next link">
+                        <img src="./img/reviews/arrow-next.svg" alt="arrow-next">
+                    </div>
+                </div>
+
+                <div class="swiper reviews-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide reviews-slide">
+                            <img src="./img/reviews/slide-img01.png" alt="men">
+                            <h3>Lincoln Burrows</h3>
+                            <p>Thanks to Michael for doing everything efficiently on time and without broaches. I recommend this specialist for work. Special thanks to Michael for the work that was not included in the original.</p>
+                        </div>
+                        <div class="swiper-slide reviews-slide">
+                            <img src="./img/reviews/slide-img02.png" alt="men">
+                            <h3>Gretchen Morgan</h3>
+                            <p>Thank you very much for your work, the project was completed very quickly and efficiently. I recommend it as a reliable performer! I will contact you in the future.</p>
+                        </div>
+                        <div class="swiper-slide reviews-slide">
+                            <img src="./img/reviews/slide-img03.png" alt="men">
+                            <h3>Paul Kellerman</h3>
+                            <p>The performer who specifically understands the task. Very cool and easy to communicate. I did an excellent job, I will contact you. I advise everyone!</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-form">
+                    <h2 class="footer-title">
+                        Calculate the timing and cost of your project
+                    </h2>
+                    <p class="footer-subtitle">Leave your phone number for communication</p>
+    
+                    <form action="#!">
+                        <input type="text" placeholder="Name">
+                        <input type="phone" placeholder="Phone" class="phone-input">
+                        <input type="text" placeholder="Message" class="message-input">
+                        <button class="footer-btn link">Discuss the project</button>
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+        <img src="./img/footer/footer-bg.png" alt="it" class="footer-bg">
+    </footer>
+    <div class="bg-arrows">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
